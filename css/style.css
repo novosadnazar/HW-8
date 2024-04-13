@@ -25,3 +25,44 @@ div+h3+p{
 .yellow{
     color:yellow;
 }
+ 
+
+.limit:nth-child(n+1) {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    border: solid black;
+    padding: 50px;
+    background-color: cadetblue;
+    flex-wrap: wrap;
+}
+.crypto{
+    list-style: none;
+}
+.limit>ul{
+    list-style: none;
+}
+.limit{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black ;
+    font-size: 17px;
+    color: cyan;
+}
+.limit:hover{
+    background-color: darkseagreen;
+    color: black;
+    cursor: pointer;
+}
+.limit:active{
+    background-color: aquamarine;
+    transform: scale(1,2);
+}
+.crypto:focus{
+    background-color: black;
+}
+
